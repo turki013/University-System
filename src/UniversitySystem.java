@@ -12,7 +12,7 @@ class Person {
         //Constructor 
         this.name = "no name yet..";
         this.age = 0;
-        this.address = "you dont add the address yet..";
+        this.address = "you don't add the address yet..";
         this.nationality = "not available..";
 
     }
@@ -121,8 +121,8 @@ public class UniversitySystem {
 
         // object
         Student s1 = new Student();
-        // Welcome message
 
+        // Welcome message
         System.out.println("\nWelcome to University System ! ");
         int chose; // Variable to store user choice
         do {
@@ -189,6 +189,7 @@ public class UniversitySystem {
                     System.out.println("1. Name\n2. Age\n3. Address\n4. Nationality\n5. Study Level\n6. Specialization\n7. GPA");
                     int editChoice = input.nextInt();
                     input.nextLine();
+                    //Nested Switch
                     switch (editChoice) {
                         case 1:
                             //Edit name
@@ -261,7 +262,7 @@ public class UniversitySystem {
                     }
 
                     System.out.println("field updated successfully!");
-                    break;
+                    break; // Exit nested Switch
 
                 case 3:
                     //Delete student
@@ -277,6 +278,9 @@ public class UniversitySystem {
                     System.out.println("Age: " + s1.getAge());
                     System.out.println("Address: " + s1.getAddress());
                     System.out.println("Nationality: " + s1.getNationality());
+                    System.out.println("Speciliz : " + s1.getSpecialization());
+                    System.out.println("Level : " + s1.getStudy_Level());
+                    System.out.println("GPA : " + s1.getGPA());
                     break;
                 case 5:
                     System.out.println("Exiting..");
