@@ -1,5 +1,14 @@
 # University System
 
+![GitHub Repo stars](https://img.shields.io/github/stars/turki013/University-System?style=social)
+![GitHub forks](https://img.shields.io/github/forks/turki013/University-System?style=social)
+![GitHub issues](https://img.shields.io/github/issues/turki013/University-System)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/turki013/University-System)
+![GitHub last commit](https://img.shields.io/github/last-commit/turki013/University-System)
+![GitHub repo size](https://img.shields.io/github/repo-size/turki013/University-System)
+![License](https://img.shields.io/github/license/turki013/University-System)
+
+
 This project is a **University System** built in Java, showcasing Object-Oriented Programming (OOP) principles. It allows users to perform operations like managing student information and interacting with various functionalities such as creating, updating, deleting, and displaying student details.
 
 ## Features
